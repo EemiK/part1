@@ -1,2 +1,15 @@
 2023.01.10 17:05:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\eemik\part1\.metals\lsp.trace.json or C:\Users\eemik\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2023.01.10 17:05:06 INFO  logging to file C:\Users\eemik\part1\.metals\metals.log
+2023.01.10 17:05:06 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\eemik\part1' for client Visual Studio Code 1.74.2.
+2023.01.10 17:05:06 INFO  Parse release: 11.0.14.1
+2023.01.10 17:05:08 INFO  time: initialize in 2.31s
+2023.01.10 17:05:08 WARN  Build server is not auto-connectable.
+2023.01.10 17:05:08 WARN  no build tool detected in workspace 'C:\Users\eemik\part1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+tammik. 10, 2023 5:13:36 IP. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+tammik. 10, 2023 5:13:37 IP. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+tammik. 10, 2023 5:13:38 IP. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+tammik. 10, 2023 5:13:39 IP. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
