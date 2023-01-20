@@ -1,10 +1,6 @@
 import { useState } from "react"
 
-const Button = ({ handleClicks, text }) => (
-  <button onClick={handleClicks}>
-    {text}
-  </button>
-)
+const Button = ({ handleClicks, text }) => <button onClick={handleClicks}>{text}</button>
 
 const StatisticLine = ({ name, value }) => {
   if (name == 'positive') return (
@@ -57,9 +53,9 @@ const App = () => {
   return (
     <div>
       <h1>give feedback</h1>
-      <Button handleClicks={() => setGood(good + 1)} text={'good'} />
-      <Button handleClicks={() => setNeutral(neutral + 1)} text={'neutral'} />
-      <Button handleClicks={() => setBad(bad + 1)} text={'bad'} />
+      <Button handleClicks={() => setGood(good + 1)} text={stats.names[0]} />
+      <Button handleClicks={() => setNeutral(neutral + 1)} text={stats.names[1]} />
+      <Button handleClicks={() => setBad(bad + 1)} text={stats.names[2]} />
       <h1>statistics</h1>
       <Statistics names={stats.names} values={stats.values} />
     </div>
